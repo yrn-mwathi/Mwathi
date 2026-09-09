@@ -1,6 +1,6 @@
 <div align="center">
 
-# Dennis Mulili Mwathi
+# Mwathi Dennis
 
 ### Full-Stack Software Developer · Cloud & DevOps Engineer · Data & AI Builder
 
