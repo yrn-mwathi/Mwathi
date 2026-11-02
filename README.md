@@ -6,7 +6,7 @@
 
 Building practical, secure, and scalable software for businesses and communities in Kenya and beyond.
 
-[![GitHub](https://img.shields.io/badge/GitHub-l70478519--cloud-181717?style=for-the-badge&logo=github)](https://github.com/l70478519-cloud)
+[![GitHub](https://img.shields.io/badge/GitHub-yrn--mwathi-181717?style=for-the-badge&logo=github)](https://github.com/yrn-mwathi)
 
 </div>
 
@@ -30,31 +30,31 @@ My portfolio is intentionally balanced across:
 
 | Project | Focus |
 |---|---|
-| [Healthcare Appointment Management System](https://github.com/l70478519-cloud/healthcare-appointment-management-system) | Patient scheduling and healthcare operations |
-| [E-commerce Order Fulfilment Platform](https://github.com/l70478519-cloud/ecommerce-order-fulfilment-platform) | Order lifecycle and fulfilment workflows |
-| [SACCO Digital Banking Platform](https://github.com/l70478519-cloud/sacco-digital-banking-platform) | Member-focused financial services |
-| [Digital Lending Risk Engine](https://github.com/l70478519-cloud/digital-lending-risk-engine) | Lending decisions and risk evaluation |
-| [School Management & Parent Portal](https://github.com/l70478519-cloud/school-management-parent-portal) | School administration and parent engagement |
+| [Healthcare Appointment Management System](https://github.com/yrn-mwathi/healthcare-appointment-management-system) | Patient scheduling and healthcare operations |
+| [E-commerce Order Fulfilment Platform](https://github.com/yrn-mwathi/ecommerce-order-fulfilment-platform) | Order lifecycle and fulfilment workflows |
+| [SACCO Digital Banking Platform](https://github.com/yrn-mwathi/sacco-digital-banking-platform) | Member-focused financial services |
+| [Digital Lending Risk Engine](https://github.com/yrn-mwathi/digital-lending-risk-engine) | Lending decisions and risk evaluation |
+| [School Management & Parent Portal](https://github.com/yrn-mwathi/school-management-parent-portal) | School administration and parent engagement |
 | Elimu School Platform *(private)* | Kenya-focused digital education platform |
-| [Multi-tenant SaaS Billing Platform](https://github.com/l70478519-cloud/multi-tenant-saas-billing-platform) | Tenant isolation, subscriptions, and billing |
+| [Multi-tenant SaaS Billing Platform](https://github.com/yrn-mwathi/multi-tenant-saas-billing-platform) | Tenant isolation, subscriptions, and billing |
 
 ### Data, Analytics & Intelligent Systems
 
 | Project | Focus |
 |---|---|
-| [Business Intelligence Analytics Dashboard](https://github.com/l70478519-cloud/business-intelligence-analytics-dashboard) | Business metrics, reporting, and decision support |
-| [Fraud Detection Analytics Engine](https://github.com/l70478519-cloud/fraud-detection-analytics-engine) | Transaction analysis and suspicious-pattern detection |
-| [Document Processing & Verification System](https://github.com/l70478519-cloud/document-processing-verification-system) | Document workflows, extraction, and verification |
-| [Smart Agriculture Monitoring Platform](https://github.com/l70478519-cloud/smart-agriculture-monitoring-platform) | Agricultural monitoring and operational insights |
-| [Fleet Route Optimization Engine](https://github.com/l70478519-cloud/fleet-route-optimization-engine) | Fleet planning and route optimization |
+| [Business Intelligence Analytics Dashboard](https://github.com/yrn-mwathi/business-intelligence-analytics-dashboard) | Business metrics, reporting, and decision support |
+| [Fraud Detection Analytics Engine](https://github.com/yrn-mwathi/fraud-detection-analytics-engine) | Transaction analysis and suspicious-pattern detection |
+| [Document Processing & Verification System](https://github.com/yrn-mwathi/document-processing-verification-system) | Document workflows, extraction, and verification |
+| [Smart Agriculture Monitoring Platform](https://github.com/yrn-mwathi/smart-agriculture-monitoring-platform) | Agricultural monitoring and operational insights |
+| [Fleet Route Optimization Engine](https://github.com/yrn-mwathi/fleet-route-optimization-engine) | Fleet planning and route optimization |
 
 ### APIs, Security & Reliability
 
 | Project | Focus |
 |---|---|
-| [Healthcare Interoperability API](https://github.com/l70478519-cloud/healthcare-interoperability-api) | Secure exchange of healthcare information |
-| [Cybersecurity SIEM Detection Lab](https://github.com/l70478519-cloud/cybersecurity-siem-detection-lab) | Security monitoring, detection rules, and incident analysis |
-| [Disaster Recovery & Business Continuity Lab](https://github.com/l70478519-cloud/disaster-recovery-business-continuity-lab) | Recovery planning, resilience, and continuity testing |
+| [Healthcare Interoperability API](https://github.com/yrn-mwathi/healthcare-interoperability-api) | Secure exchange of healthcare information |
+| [Cybersecurity SIEM Detection Lab](https://github.com/yrn-mwathi/cybersecurity-siem-detection-lab) | Security monitoring, detection rules, and incident analysis |
+| [Disaster Recovery & Business Continuity Lab](https://github.com/yrn-mwathi/disaster-recovery-business-continuity-lab) | Recovery planning, resilience, and continuity testing |
 
 ## Engineering Approach
 
@@ -97,7 +97,7 @@ This repository holds my portfolio site — plain HTML, CSS and JavaScript, no b
 
 ## Connect
 
-- GitHub: [l70478519-cloud](https://github.com/l70478519-cloud)
+- GitHub: [yrn-mwathi](https://github.com/yrn-mwathi)
 - Email: [l70478519@gmail.com](mailto:l70478519@gmail.com)
 - WhatsApp: [+254 715 949 386](https://wa.me/254715949386)
 - Location: Kenya
