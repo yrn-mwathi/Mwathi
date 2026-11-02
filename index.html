@@ -2,97 +2,295 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Mwathi Dennis — Full-stack software developer, cloud and DevOps engineer, and data and AI builder in Kenya.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mwathi Dennis — Full-Stack, Cloud &amp; Data Engineer | 1Dev.co</title>
+  <meta name="description" content="Mwathi Dennis (1Dev.co) — full-stack software developer, cloud and DevOps engineer, and data and AI builder in Kenya. Secure, scalable systems for businesses and communities.">
+  <meta name="author" content="Mwathi Dennis">
   <meta name="theme-color" content="#07111f">
-  <title>1Dev.co | Mwathi Dennis — Software Developer</title>
+
+  <!-- Social sharing (WhatsApp, LinkedIn, X, Slack previews) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mwathi Dennis — Software Developer | 1Dev.co">
+  <meta property="og:description" content="Full-stack, cloud & DevOps, and data & AI engineering from Kenya.">
+  <meta property="og:image" content="assets/1dev-logo.webp">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" type="image/webp" href="assets/1dev-logo.webp">
+  <link rel="apple-touch-icon" href="assets/1dev-logo.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mwathi Dennis",
+    "jobTitle": "Full-Stack Software Developer",
+    "brand": "1Dev.co",
+    "address": { "@type": "PostalAddress", "addressCountry": "KE" },
+    "email": "mailto:l70478519@gmail.com",
+    "telephone": "+254715949386",
+    "sameAs": ["https://github.com/l70478519-cloud"],
+    "knowsAbout": ["Full-stack development", "Cloud engineering", "DevOps", "Data engineering", "Machine learning", "Cybersecurity"]
+  }
+  </script>
+  <!-- Hide scroll-reveal content only when JS is running, so the page never renders blank -->
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
-  <div class="noise"></div>
-  <header class="nav-wrap">
-    <a class="logo" href="#home" aria-label="1Dev.co home"><img class="brand-mark" src="assets/1dev-logo.webp" alt=""> <span class="brand-name">1Dev.co</span></a>
-    <button class="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav>
-      <a href="#home">Home</a><a href="#about">About</a><a href="#expertise">Services</a><a href="#work">Portfolio</a><a href="#contact">Contact</a>
-      <a class="nav-cta" href="https://github.com/l70478519-cloud" target="_blank" rel="noreferrer">GitHub ↗</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav-wrap" id="top-nav">
+    <a class="logo" href="#home" aria-label="1Dev.co — back to top">
+      <img class="brand-mark" src="assets/1dev-logo.webp" alt="" width="42" height="42">
+      <span class="brand-name">1Dev.co</span>
+    </a>
+    <button class="menu" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="https://github.com/l70478519-cloud" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
+    <!-- HERO -->
     <section class="hero section" id="home">
       <div class="hero-copy reveal">
-        <p class="eyebrow"><span></span> Hello, it’s me</p>
-        <h1>Mwathi Dennis.<br><em>I’m a <span class="typed-role" aria-live="polite">Software Developer</span></em></h1>
-        <p class="lede">Full-stack software developer, cloud &amp; DevOps engineer, and data &amp; AI builder creating secure, scalable systems for businesses and communities.</p>
+        <p class="eyebrow"><span></span> Mwathi Dennis · 1Dev.co</p>
+        <h1>I build software that <em>keeps working.</em></h1>
+        <p class="role-line">
+          <span class="sr-only">Software Developer, Full-stack Engineer, Cloud &amp; DevOps Engineer, Data &amp; AI Builder</span>
+          <span aria-hidden="true">— <span class="typed-role">Software Developer</span></span>
+        </p>
+        <p class="lede">Full-stack applications, cloud infrastructure and data systems for businesses and communities in Kenya and beyond — designed to be secure, maintainable and ready to grow.</p>
         <div class="actions">
-          <a class="button primary" href="#work">Explore my work <b>↘</b></a>
-          <a class="button secondary" href="#contact">Let’s talk</a>
+          <a class="button primary" href="#work">See my work <b aria-hidden="true">↘</b></a>
+          <a class="button secondary" href="#contact">Start a project</a>
         </div>
-        <div class="quick"><span>Based in Kenya</span><span>Building globally</span></div>
+        <ul class="quick" aria-label="Quick facts">
+          <li>Based in Kenya</li>
+          <li>Working with clients globally</li>
+          <li>Available for new projects</li>
+        </ul>
       </div>
-      <div class="hero-visual reveal">
+      <div class="hero-visual reveal" aria-hidden="true">
         <div class="portrait-ring">
-          <img src="assets/1dev-logo.webp" alt="1Dev.co technology logo">
+          <img src="assets/1dev-logo.webp" alt="" width="410" height="410">
         </div>
-        <div class="float-card card-code"><i>01</i><strong>Full-stack</strong><small>Products & APIs</small></div>
-        <div class="float-card card-cloud"><i>02</i><strong>Cloud & DevOps</strong><small>Reliable delivery</small></div>
-        <div class="float-card card-data"><i>03</i><strong>Data & AI</strong><small>Useful intelligence</small></div>
+        <div class="float-card card-code"><i>01</i><strong>Full-stack</strong><small>Products &amp; APIs</small></div>
+        <div class="float-card card-cloud"><i>02</i><strong>Cloud &amp; DevOps</strong><small>Reliable delivery</small></div>
+        <div class="float-card card-data"><i>03</i><strong>Data &amp; AI</strong><small>Useful intelligence</small></div>
       </div>
     </section>
 
-    <section class="marquee" aria-label="Areas of expertise"><div>FULL-STACK ENGINEERING <b>✦</b> CLOUD & DEVOPS <b>✦</b> DATA & AI <b>✦</b> SECURITY <b>✦</b> FULL-STACK ENGINEERING <b>✦</b> CLOUD & DEVOPS <b>✦</b></div></section>
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Full-stack engineering <b>✦</b> Cloud &amp; DevOps <b>✦</b> Data &amp; AI <b>✦</b> Security <b>✦</b> Observability <b>✦</b></span>
+        <span>Full-stack engineering <b>✦</b> Cloud &amp; DevOps <b>✦</b> Data &amp; AI <b>✦</b> Security <b>✦</b> Observability <b>✦</b></span>
+      </div>
+    </div>
 
+    <!-- ABOUT -->
     <section class="section about" id="about">
-      <div class="section-label reveal">01 — About</div>
+      <p class="section-label reveal">01 — About</p>
       <div class="about-grid">
         <h2 class="reveal">Engineering with purpose, from idea to <span>reliable product.</span></h2>
         <div class="about-copy reveal">
-          <p>I build complete digital products—from user-facing applications and APIs to cloud infrastructure, delivery pipelines, observability, security, and analytics.</p>
-          <p>My work combines practical business thinking with maintainable architecture. The goal is simple: technology that solves the right problem and keeps working as it grows.</p>
-          <div class="stats"><div><strong>3</strong><span>Core disciplines</span></div><div><strong>20+</strong><span>Portfolio projects</span></div><div><strong>100%</strong><span>Built with purpose</span></div></div>
+          <p>I build complete digital products — user-facing applications and APIs, the cloud infrastructure they run on, the pipelines that ship them, and the monitoring, security and analytics that keep them healthy.</p>
+          <p>I pair practical business thinking with maintainable architecture. The goal is simple: technology that solves the right problem and keeps working as it grows.</p>
+          <dl class="stats">
+            <div><dt>Core disciplines</dt><dd>3</dd></div>
+            <div><dt>Public projects</dt><dd>14</dd></div>
+            <div><dt>Industries covered</dt><dd>6+</dd></div>
+          </dl>
         </div>
       </div>
     </section>
 
-    <section class="section work" id="work">
-      <div class="section-head reveal"><div><div class="section-label">02 — Selected work</div><h2>Projects built around <span>real challenges.</span></h2></div><a href="https://github.com/l70478519-cloud?tab=repositories" target="_blank" rel="noreferrer">View all on GitHub ↗</a></div>
-      <div class="projects">
-        <article class="project reveal"><div class="project-no">01</div><div><span class="tag">Healthcare</span><h3>Healthcare Appointment Management</h3><p>Patient scheduling and operational workflows designed for clear, dependable care coordination.</p><div class="tech">Product engineering · Workflows · APIs</div></div><a href="https://github.com/l70478519-cloud/healthcare-appointment-management-system" aria-label="View healthcare project">↗</a></article>
-        <article class="project reveal"><div class="project-no">02</div><div><span class="tag">Fintech</span><h3>SACCO Digital Banking Platform</h3><p>A member-focused financial services foundation with secure access and practical banking workflows.</p><div class="tech">Finance · Security · Full-stack</div></div><a href="https://github.com/l70478519-cloud/sacco-digital-banking-platform" aria-label="View SACCO project">↗</a></article>
-        <article class="project reveal"><div class="project-no">03</div><div><span class="tag">Data & AI</span><h3>Fraud Detection Analytics Engine</h3><p>Transaction analytics and suspicious-pattern detection focused on interpretable risk signals.</p><div class="tech">Analytics · Detection · Risk</div></div><a href="https://github.com/l70478519-cloud/fraud-detection-analytics-engine" aria-label="View fraud project">↗</a></article>
-        <article class="project reveal"><div class="project-no">04</div><div><span class="tag">Security</span><h3>Cybersecurity SIEM Detection Lab</h3><p>Security monitoring, detection rules, and incident-analysis exercises for resilient systems.</p><div class="tech">SIEM · Observability · Incident response</div></div><a href="https://github.com/l70478519-cloud/cybersecurity-siem-detection-lab" aria-label="View SIEM project">↗</a></article>
-        <article class="project reveal"><div class="project-no">05</div><div><span class="tag">Education</span><h3>School Management & Parent Portal</h3><p>A connected school administration and parent-engagement platform designed for Kenyan education.</p><div class="tech">SaaS · Portals · Communication</div></div><a href="https://github.com/l70478519-cloud/school-management-parent-portal" aria-label="View school project">↗</a></article>
-        <article class="project reveal"><div class="project-no">06</div><div><span class="tag">Operations</span><h3>Fleet Route Optimization Engine</h3><p>Fleet planning and route optimization focused on efficient operations and clear decisions.</p><div class="tech">Optimization · Logistics · Data</div></div><a href="https://github.com/l70478519-cloud/fleet-route-optimization-engine" aria-label="View fleet project">↗</a></article>
-      </div>
-      <aside class="nda reveal"><div class="lock">⌁</div><div><strong>Confidential work stays confidential.</strong><p>Some client, professional, and government-related projects are private. Eligible access may be considered only under a signed NDA and with the relevant authorization. Sanitized demonstrations can be provided where permitted.</p></div></aside>
-    </section>
-
-    <section class="section expertise" id="expertise">
-      <div class="section-label reveal">03 — Expertise</div>
+    <!-- SERVICES -->
+    <section class="section expertise" id="services">
+      <p class="section-label reveal">02 — Services</p>
       <div class="expertise-grid">
-        <div class="expertise-intro reveal"><h2>One engineer.<br><span>Three perspectives.</span></h2><p>I connect product, infrastructure, and intelligence so systems work as a whole—not as isolated parts.</p></div>
-        <div class="skill-list">
-          <article class="skill reveal"><b>01</b><div><h3>Full-stack engineering</h3><p>Business applications, responsive interfaces, APIs, dashboards, authentication, and SaaS platforms.</p></div></article>
-          <article class="skill reveal"><b>02</b><div><h3>Cloud & DevOps</h3><p>Infrastructure as code, CI/CD, GitOps, containers, observability, resilience, and recovery.</p></div></article>
-          <article class="skill reveal"><b>03</b><div><h3>Data & AI</h3><p>Analytics, ETL pipelines, fraud detection, document processing, and intelligent workflows.</p></div></article>
+        <div class="expertise-intro reveal">
+          <h2>One engineer.<br><span>Three perspectives.</span></h2>
+          <p>I connect product, infrastructure and intelligence so your system works as a whole — not as isolated parts handed between teams.</p>
         </div>
+        <div class="skill-list">
+          <article class="skill reveal">
+            <b>01</b>
+            <div>
+              <h3>Full-stack engineering</h3>
+              <p>Business applications, responsive interfaces, APIs, dashboards, authentication and multi-tenant SaaS platforms.</p>
+            </div>
+          </article>
+          <article class="skill reveal">
+            <b>02</b>
+            <div>
+              <h3>Cloud &amp; DevOps</h3>
+              <p>Infrastructure as code, CI/CD, GitOps, containers, observability, backups, disaster recovery and resilience testing.</p>
+            </div>
+          </article>
+          <article class="skill reveal">
+            <b>03</b>
+            <div>
+              <h3>Data &amp; AI</h3>
+              <p>Analytics, ETL pipelines, fraud and risk detection, document processing and intelligent workflow automation.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="approach reveal">
+        <h3>How every project is built</h3>
+        <ul>
+          <li>Clear architecture and maintainable code</li>
+          <li>Secure authentication, authorization and data handling</li>
+          <li>Automated testing and continuous integration</li>
+          <li>Containerised, repeatable environments</li>
+          <li>Monitoring, logging and recovery plans</li>
+          <li>Documentation your team can actually use</li>
+        </ul>
       </div>
     </section>
 
+    <!-- PORTFOLIO -->
+    <section class="section work" id="work">
+      <div class="section-head reveal">
+        <div>
+          <p class="section-label">03 — Portfolio</p>
+          <h2>Projects built around <span>real challenges.</span></h2>
+        </div>
+        <a href="https://github.com/l70478519-cloud?tab=repositories" target="_blank" rel="noopener noreferrer">View all on GitHub ↗</a>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="Filter projects">
+        <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="filter" data-filter="product" aria-pressed="false">Product engineering</button>
+        <button type="button" class="filter" data-filter="data" aria-pressed="false">Data &amp; AI</button>
+        <button type="button" class="filter" data-filter="reliability" aria-pressed="false">Security &amp; reliability</button>
+      </div>
+
+      <div class="projects" id="project-list">
+        <!-- Product engineering -->
+        <article class="project" data-cat="product">
+          <div class="project-no">01</div>
+          <div><span class="tag">Healthcare</span><h3>Healthcare Appointment Management</h3><p>Patient scheduling and operational workflows for clear, dependable care coordination.</p><div class="tech">Product engineering · Workflows · APIs</div></div>
+          <a href="https://github.com/l70478519-cloud/healthcare-appointment-management-system" target="_blank" rel="noopener noreferrer" aria-label="View Healthcare Appointment Management on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="product">
+          <div class="project-no">02</div>
+          <div><span class="tag">Fintech</span><h3>SACCO Digital Banking Platform</h3><p>A member-focused financial services foundation with secure access and practical banking workflows.</p><div class="tech">Finance · Security · Full-stack</div></div>
+          <a href="https://github.com/l70478519-cloud/sacco-digital-banking-platform" target="_blank" rel="noopener noreferrer" aria-label="View SACCO Digital Banking Platform on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="product">
+          <div class="project-no">03</div>
+          <div><span class="tag">Fintech</span><h3>Digital Lending Risk Engine</h3><p>Lending decisions and credit-risk evaluation with transparent, auditable rules.</p><div class="tech">Risk · Decisioning · APIs</div></div>
+          <a href="https://github.com/l70478519-cloud/digital-lending-risk-engine" target="_blank" rel="noopener noreferrer" aria-label="View Digital Lending Risk Engine on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="product">
+          <div class="project-no">04</div>
+          <div><span class="tag">E-commerce</span><h3>Order Fulfilment Platform</h3><p>The full order lifecycle — from checkout through picking, dispatch and delivery tracking.</p><div class="tech">Workflows · Inventory · Full-stack</div></div>
+          <a href="https://github.com/l70478519-cloud/ecommerce-order-fulfilment-platform" target="_blank" rel="noopener noreferrer" aria-label="View Order Fulfilment Platform on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="product">
+          <div class="project-no">05</div>
+          <div><span class="tag">Education</span><h3>School Management &amp; Parent Portal</h3><p>Connected school administration and parent engagement, designed for Kenyan schools.</p><div class="tech">SaaS · Portals · Communication</div></div>
+          <a href="https://github.com/l70478519-cloud/school-management-parent-portal" target="_blank" rel="noopener noreferrer" aria-label="View School Management and Parent Portal on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="product">
+          <div class="project-no">06</div>
+          <div><span class="tag">SaaS</span><h3>Multi-tenant SaaS Billing Platform</h3><p>Tenant isolation, subscription plans and usage-based billing for growing SaaS products.</p><div class="tech">Multi-tenancy · Billing · Security</div></div>
+          <a href="https://github.com/l70478519-cloud/multi-tenant-saas-billing-platform" target="_blank" rel="noopener noreferrer" aria-label="View Multi-tenant SaaS Billing Platform on GitHub">↗</a>
+        </article>
+
+        <!-- Data & AI -->
+        <article class="project" data-cat="data">
+          <div class="project-no">07</div>
+          <div><span class="tag">Data &amp; AI</span><h3>Fraud Detection Analytics Engine</h3><p>Transaction analytics and suspicious-pattern detection focused on interpretable risk signals.</p><div class="tech">Analytics · Detection · Risk</div></div>
+          <a href="https://github.com/l70478519-cloud/fraud-detection-analytics-engine" target="_blank" rel="noopener noreferrer" aria-label="View Fraud Detection Analytics Engine on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="data">
+          <div class="project-no">08</div>
+          <div><span class="tag">Analytics</span><h3>Business Intelligence Dashboard</h3><p>Business metrics, reporting and decision support in one clear view.</p><div class="tech">BI · Reporting · Data pipelines</div></div>
+          <a href="https://github.com/l70478519-cloud/business-intelligence-analytics-dashboard" target="_blank" rel="noopener noreferrer" aria-label="View Business Intelligence Dashboard on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="data">
+          <div class="project-no">09</div>
+          <div><span class="tag">Automation</span><h3>Document Processing &amp; Verification</h3><p>Document intake, data extraction and verification workflows that cut manual checking.</p><div class="tech">OCR · Extraction · Workflows</div></div>
+          <a href="https://github.com/l70478519-cloud/document-processing-verification-system" target="_blank" rel="noopener noreferrer" aria-label="View Document Processing and Verification System on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="data">
+          <div class="project-no">10</div>
+          <div><span class="tag">Agritech</span><h3>Smart Agriculture Monitoring</h3><p>Farm monitoring and operational insight to support better, earlier decisions.</p><div class="tech">IoT data · Monitoring · Insights</div></div>
+          <a href="https://github.com/l70478519-cloud/smart-agriculture-monitoring-platform" target="_blank" rel="noopener noreferrer" aria-label="View Smart Agriculture Monitoring Platform on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="data">
+          <div class="project-no">11</div>
+          <div><span class="tag">Logistics</span><h3>Fleet Route Optimization Engine</h3><p>Fleet planning and route optimization for efficient operations and clear decisions.</p><div class="tech">Optimization · Logistics · Data</div></div>
+          <a href="https://github.com/l70478519-cloud/fleet-route-optimization-engine" target="_blank" rel="noopener noreferrer" aria-label="View Fleet Route Optimization Engine on GitHub">↗</a>
+        </article>
+
+        <!-- Security & reliability -->
+        <article class="project" data-cat="reliability">
+          <div class="project-no">12</div>
+          <div><span class="tag">Healthcare</span><h3>Healthcare Interoperability API</h3><p>Secure, standards-minded exchange of healthcare information between systems.</p><div class="tech">APIs · Integration · Data privacy</div></div>
+          <a href="https://github.com/l70478519-cloud/healthcare-interoperability-api" target="_blank" rel="noopener noreferrer" aria-label="View Healthcare Interoperability API on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="reliability">
+          <div class="project-no">13</div>
+          <div><span class="tag">Security</span><h3>Cybersecurity SIEM Detection Lab</h3><p>Security monitoring, detection rules and incident-analysis exercises for resilient systems.</p><div class="tech">SIEM · Observability · Incident response</div></div>
+          <a href="https://github.com/l70478519-cloud/cybersecurity-siem-detection-lab" target="_blank" rel="noopener noreferrer" aria-label="View Cybersecurity SIEM Detection Lab on GitHub">↗</a>
+        </article>
+        <article class="project" data-cat="reliability">
+          <div class="project-no">14</div>
+          <div><span class="tag">Resilience</span><h3>Disaster Recovery &amp; Business Continuity Lab</h3><p>Recovery planning, backups and continuity testing so outages stay short and survivable.</p><div class="tech">DR · Backups · Resilience</div></div>
+          <a href="https://github.com/l70478519-cloud/disaster-recovery-business-continuity-lab" target="_blank" rel="noopener noreferrer" aria-label="View Disaster Recovery Lab on GitHub">↗</a>
+        </article>
+      </div>
+
+      <aside class="nda reveal">
+        <div class="lock" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+        </div>
+        <div>
+          <strong>Confidential work stays confidential.</strong>
+          <p>Some client, professional and government-related projects are private. Access may be considered only under a signed NDA and with the relevant authorization. Where permitted, I can give a sanitized demo or walk through my role, the stack and the outcomes.</p>
+        </div>
+      </aside>
+    </section>
+
+    <!-- CONTACT -->
     <section class="section contact" id="contact">
       <p class="eyebrow reveal"><span></span> Have a worthwhile problem?</p>
       <h2 class="reveal">Let’s build something <em>useful.</em></h2>
-      <p class="reveal">Open to software development, cloud/DevOps, data, AI, and technical consulting opportunities.</p>
-      <div class="actions reveal"><a class="button primary" href="mailto:l70478519@gmail.com">Start a conversation ↗</a><a class="button secondary light" href="tel:+254715949386">+254 715 949 386</a><a class="button secondary light" href="https://github.com/l70478519-cloud" target="_blank" rel="noreferrer">Visit GitHub</a></div>
+      <p class="reveal">Open to software development, cloud/DevOps, data, AI and technical consulting work. I usually reply within one working day.</p>
+      <div class="actions reveal">
+        <a class="button primary" href="mailto:l70478519@gmail.com?subject=Project%20enquiry%20via%201Dev.co">Email me ↗</a>
+        <a class="button secondary light" href="https://wa.me/254715949386?text=Hello%201Dev.co%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a class="button secondary light" href="tel:+254715949386">+254 715 949 386</a>
+      </div>
+      <p class="contact-email reveal">l70478519@gmail.com</p>
     </section>
   </main>
 
-  <footer><a class="logo" href="#home"><img class="brand-mark" src="assets/1dev-logo.webp" alt=""> <span class="brand-name">1Dev.co</span></a><p>© <span id="year"></span> <a href="https://l70478519-cloud.github.io/Mwathi/" target="_blank" rel="noreferrer">1Dev.co</a>. All rights reserved.</p><a href="#home">Back to top ↑</a></footer>
-  <a class="whatsapp-float" href="https://wa.me/254715949386?text=Hello%201Dev.co%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noreferrer" aria-label="Chat with 1Dev.co on WhatsApp"><span aria-hidden="true">◉</span><strong>WhatsApp us</strong></a>
-  <script src="script.js"></script>
+  <footer>
+    <a class="logo" href="#home"><img class="brand-mark" src="assets/1dev-logo.webp" alt="" width="42" height="42"> <span class="brand-name">1Dev.co</span></a>
+    <p>© <span id="year">2026</span> Mwathi Dennis · 1Dev.co. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/254715949386?text=Hello%201Dev.co%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" aria-label="Chat with 1Dev.co on WhatsApp">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.5 8.5 0 1 1 21 11.5z"/></svg>
+    <strong>Chat on WhatsApp</strong>
+  </a>
+
+  <script src="script.js" defer></script>
 </body>
 </html>

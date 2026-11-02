@@ -35,7 +35,7 @@ My portfolio is intentionally balanced across:
 | [SACCO Digital Banking Platform](https://github.com/l70478519-cloud/sacco-digital-banking-platform) | Member-focused financial services |
 | [Digital Lending Risk Engine](https://github.com/l70478519-cloud/digital-lending-risk-engine) | Lending decisions and risk evaluation |
 | [School Management & Parent Portal](https://github.com/l70478519-cloud/school-management-parent-portal) | School administration and parent engagement |
-| [Elimu School Platform](https://github.com/l70478519-cloud/elimu-school-platform) | Kenya-focused digital education platform |
+| Elimu School Platform *(private)* | Kenya-focused digital education platform |
 | [Multi-tenant SaaS Billing Platform](https://github.com/l70478519-cloud/multi-tenant-saas-billing-platform) | Tenant isolation, subscriptions, and billing |
 
 ### Data, Analytics & Intelligent Systems
@@ -80,9 +80,26 @@ I do not publish source code, credentials, datasets, infrastructure details, cli
 
 Where permitted, I can provide a sanitized demonstration or discuss my role, the technologies used, the problem addressed, and measurable outcomes at a high level.
 
+## About This Website
+
+This repository holds my portfolio site — plain HTML, CSS and JavaScript, no build step.
+
+| File | Purpose |
+|---|---|
+| `index.html` | Page content, SEO and social-sharing tags |
+| `styles.css` | Layout, theme and responsive styles |
+| `script.js` | Mobile menu, project filters, scroll effects |
+| `assets/` | Logo and images |
+
+**Run locally:** open `index.html` in a browser, or run `python3 -m http.server` in this folder and visit `http://localhost:8000`.
+
+**Deploy:** enable GitHub Pages (Settings → Pages → Deploy from branch → `main` / root).
+
 ## Connect
 
 - GitHub: [l70478519-cloud](https://github.com/l70478519-cloud)
+- Email: [l70478519@gmail.com](mailto:l70478519@gmail.com)
+- WhatsApp: [+254 715 949 386](https://wa.me/254715949386)
 - Location: Kenya
 - Open to: software development, cloud/DevOps, data, AI, and technical consulting opportunities
 
